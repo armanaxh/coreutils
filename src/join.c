@@ -218,10 +218,10 @@ When FILE1 or FILE2 (not both) is -, read standard input.\n\
   -v FILENUM        like -a FILENUM, but suppress joined output lines\n\
   -1 FIELD          join on this FIELD of file 1\n\
   -2 FIELD          join on this FIELD of file 2\n\
-  --check-order     check that the input is correctly sorted, even\n\
+      --check-order     check that the input is correctly sorted, even\n\
                       if all input lines are pairable\n\
-  --nocheck-order   do not check that the input is correctly sorted\n\
-  --header          treat the first line in each file as field headers,\n\
+      --nocheck-order   do not check that the input is correctly sorted\n\
+      --header          treat the first line in each file as field headers,\n\
                       print them without trying to pair them\n\
 "), stdout);
       fputs (_("\
